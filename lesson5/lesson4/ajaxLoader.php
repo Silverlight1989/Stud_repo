@@ -104,7 +104,7 @@
                     });
                 }
             },
-            _replacePager : function ($wrapper, dataPager) {
+            _replacePager      : function ($wrapper, dataPager) {
                 var $pager = $wrapper.find(settings.pagerSelector);
 
                 if (dataPager.indexOf('<') === -1) {
@@ -116,7 +116,7 @@
             _isPagerButton     : function ($button) {
                 return $button.closest(settings.pagerSelector).length > 0;
             },
-            _isExist : function (element) {
+            _isExist           : function (element) {
                 return element !== undefined && element !== null
             }
         };

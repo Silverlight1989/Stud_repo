@@ -1,0 +1,4 @@
+<?
+class DataBase{
+	use Singleton;
+}?>

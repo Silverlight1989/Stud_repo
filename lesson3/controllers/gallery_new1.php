@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Danila
- * Date: 23.08.2017
- * Time: 11:54
- */
+
 class GalleryController
 {
     private $twig;
